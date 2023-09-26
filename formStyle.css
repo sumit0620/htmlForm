@@ -1,0 +1,94 @@
+/* CSS for styling the form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* CSS for displaying the input data */
+.output {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the table */
+#dataTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style table header (th) */
+#dataTable th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style table rows (even and odd) */
+#dataTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#dataTable tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Style table cells (td) */
+#dataTable td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+}
+
+/* Style table cells (td) on hover */
+#dataTable tr:hover td {
+  background-color: #c5e1a5; /* Change the background color on hover */
+}

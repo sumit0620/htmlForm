@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Show Form Input with CSS</title>
+	<link rel="stylesheet" href="formStyle.css" />
+</head>
+
+<body>
+	<div class="container">
+		<h2>Styled Form</h2>
+		<form id="myForm">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required />
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required />
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required />
+
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select>
+
+			<button id="submitButton" type="button">Submit</button>
+		</form>
+
+		<!-- Display the input data here -->
+		<!-- <div class="output" id="outputNormal"></div> -->
+	</div>
+
+	<div class="output" id="outputDiv">
+		<table id="dataTable">
+			<!-- Table content will be added here dynamically -->
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Password</th>
+					<th>Gender</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<script src="form.js"></script>
+	<!-- -->
+</body>
+
+</html>
